@@ -1,0 +1,26 @@
+.banner{
+    background: url("https://vicso.co.uk/wp-content/uploads/2017/04/handyman-1030x458-1.jpg")center right;
+    height: 65vh;
+    object-fit:contain;
+    position: relative;
+}
+.banner_info{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 40vh;
+    padding-top: 15vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+}
+.banner_info> Button{
+    background-color: #ff7779;
+    color: white;
+    font-weight: 700;
+   text-transform: inherit;
+}
+.banner_info> Button:hover{
+    background-color: green;
+    color: yellow;
+}

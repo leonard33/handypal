@@ -1,0 +1,13 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+.top_row, .bottom_row{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    right: auto;
+    left: auto;
+    justify-content:center;
+}
+
