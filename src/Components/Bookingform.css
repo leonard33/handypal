@@ -1,0 +1,154 @@
+.booking-container {
+  position:fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 10;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.booking {
+  display: flex;
+  align-self: center;
+  margin: 80px auto;
+  background-image: url("https://vicso.co.uk/wp-content/uploads/2017/04/handyman-1030x458-1.jpg");
+  background-position: right;
+  width: 50%;
+  height: 60%;
+  padding: 20px 0;
+  justify-content: center;
+}
+
+input {
+  border: none;
+  border-bottom: 1px dotted black;
+  outline: none;
+  margin: 10px;
+  width: 13rem;
+  height: 2rem;
+}
+
+.booking-form {
+  display: flex;
+}
+
+.booking-details {
+  display: flex;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 50%;
+  background-color: white;
+  justify-content: center;
+  color: green;
+}
+
+.person-image {
+  width: 70%;
+  height: 60%;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.form-worker {
+  width: 70%;
+  padding-bottom: 30px;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.attach-icon {
+  color: red;
+  transform: rotate(90deg);
+}
+
+.details-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  color: greenyellow;
+}
+
+.booking-btn {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.attach {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.include {
+  color: red;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 13vw;
+  height: 35px;
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+textarea {
+  width: 12rem;
+  padding: 5px;
+  margin-right: 12px;
+  outline: none;
+}
+
+span {
+  color: red;
+  font-size: 10px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.fullname {
+  position: absolute;
+  top: 13.6rem;
+  left: 27.2rem;
+}
+
+.address {
+  position: absolute;
+  top: 13.5rem;
+  right: 34.5rem;
+}
+
+.date {
+  position: absolute;
+  top: 20.5rem;
+  left: 27.7rem;
+}
+
+.description {
+  position: absolute;
+  top: 23.9rem;
+  right: 32.2rem;
+}

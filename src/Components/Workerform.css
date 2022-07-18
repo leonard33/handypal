@@ -1,0 +1,11 @@
+.users-container {
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  justify-content: space-around;
+  align-items: center;
+}
